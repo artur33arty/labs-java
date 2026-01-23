@@ -1,0 +1,12 @@
+ru\Abubakirov\main\Main.class
+ru\Abubakirov\annotations\Invoke.class
+ru\Abubakirov\models\User.class
+ru\Abubakirov\annotations\Validate.class
+ru\Abubakirov\annotations\ToString.class
+ru\Abubakirov\main\processors\AnnotationProcessor.class
+ru\Abubakirov\main\processors\ToStringProcessor.class
+ru\Abubakirov\annotations\Default.class
+ru\Abubakirov\annotations\Two.class
+ru\Abubakirov\annotations\ToString$Mode.class
+ru\Abubakirov\annotations\Cache.class
+ru\Abubakirov\models\MyService.class

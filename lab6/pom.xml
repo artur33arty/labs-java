@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Координаты вашего проекта -->
+    <groupId>ru.Abubakirov</groupId>  <!-- Имя вашей группы/пакета -->
+    <artifactId>lab6</artifactId>      <!-- Имя вашего проекта -->
+    <version>1.0-SNAPSHOT</version>    <!-- Версия проекта -->
+
+    <!-- Настройки компилятора Java -->
+    <properties>
+        <maven.compiler.release>11</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- Секция для внешних библиотек (зависимостей) -->
+    <dependencies>
+        <!-- Зависимость для JUnit 5 API (для написания тестов) -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope> <!-- Эта библиотека нужна только для тестов -->
+        </dependency>
+
+        <!-- Зависимость для JUnit 5 Engine (для запуска тестов) -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>
